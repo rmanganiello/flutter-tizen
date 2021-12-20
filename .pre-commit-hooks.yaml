@@ -1,0 +1,12 @@
+- id: flutter-tizen-analyze
+  name: flutter tizen analyze
+  description: Analyze the project's Dart code.
+  entry: flutter-tizen analyze
+  language: system
+  types: [dart]
+- id: flutter-tizen-format
+  name: flutter tizen format
+  description: Idiomatically format Dart source code.
+  entry: flutter-tizen format
+  language: system
+  types: [dart]

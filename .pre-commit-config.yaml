@@ -1,0 +1,8 @@
+repos:
+- repo: https://github.com/flutter-tizen/flutter-tizen
+  rev: v2.5.1
+  hooks:
+    - id: flutter-tizen-analyze
+      args: ['--fatal-infos']
+    - id: flutter-tizen-format
+      args: ['--set-exit-if-changed']
